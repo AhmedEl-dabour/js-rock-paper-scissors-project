@@ -1,1 +1,1 @@
-# js-rock-paper-scissors-project
+# Rock, Paper, Scissors Code Academy
