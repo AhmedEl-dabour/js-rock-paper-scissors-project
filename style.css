@@ -48,3 +48,31 @@ body {
     opacity: 1;
     font-size: 1.5rem;
 }
+
+.results {
+    height: 600px;
+    overflow: auto;
+}
+
+/* width */
+.results::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  .results::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  .results::-webkit-scrollbar-thumb {
+    background: rgb(0, 136, 255); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  .results::-webkit-scrollbar-thumb:hover {
+    background: rgb(0, 136, 255); 
+
+  }
